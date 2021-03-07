@@ -1,0 +1,28 @@
+spring.profiles: default
+
+customers:
+ customer-list:
+  - id: 1
+    name: jack
+  - id: 2
+    name:  jill
+
+---
+spring.profiles: dev
+
+customers:
+ customer-list:
+  - id: 3
+    name: john
+  - id: 4
+    name:  jill
+
+---
+spring.profiles: test
+
+customers:
+ customer-list:
+  - id: 5
+    name: james
+  - id: 6
+    name:  Amelia
